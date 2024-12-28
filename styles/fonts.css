@@ -1,6 +1,21 @@
-.host-grotesk- {
-  font-family: "Host Grotesk", serif;
-  font-optical-sizing: auto;
+@font-face {
+  font-family: 'Grotesk';
   font-weight: 500;
-  font-style: normal;
+  src: url(../font/HankenGrotesk-Medium.woff);
+}
+
+@font-face {
+  font-family: 'Grotesk';
+  font-weight: 600;
+  src: url(../font/HankenGrotesk-SemiBold.woff);
+}
+@font-face {
+  font-family: 'Grotesk';
+  font-weight: 700;
+  src: url(../font/HankenGrotesk-Bold.woff);
+}
+@font-face {
+  font-family: 'Grotesk';
+  font-weight: 400;
+  src: url(../font/HankenGrotesk-Regular.woff);
 }

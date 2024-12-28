@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Host Grotesk", sans-serif;
+    font-family: 'Grotesk', sans-serif;
 }
 
 .container {
@@ -33,7 +33,7 @@ body {
     line-height: 14px;
 
 
-    width: 214px;
+    width: 250px;
     height: 14px;
     color: #666666;
 
@@ -46,7 +46,10 @@ body {
     line-height: 18px;
 
 }
-
+.header1{
+    width: 100%;
+    background-color: #F5F5F5;
+}
 .header-start-right {
     display: flex;
     align-items: center;
@@ -100,7 +103,9 @@ body {
     background-color: #F3F9FB;
     cursor: pointer;
 }
-
+.mega-input:focus{
+    outline: none;
+}
 .image {
     display: flex;
     align-items: center;
@@ -225,7 +230,7 @@ body {
     background-color: #F3F9FB;
     border: 8px solid#FFFFFF;
     position: absolute;
-    left: 0;
+    left: -50px;
     cursor: pointer;
     top: 115px;
 
@@ -238,7 +243,7 @@ body {
     background-color: #F3F9FB;
     border: 8px solid#FFFFFF;
     position: absolute;
-    right: 0;
+    right: -50px;
     left: -10;
     top: 115px;
     cursor: pointer;
@@ -347,7 +352,8 @@ body {
     height: 105px;
     padding: 12px;
     padding-bottom: 10px;
-
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -385,4 +391,376 @@ body {
 .card-img1 {
     margin-left: 51px;
     margin-top: 7px;
+}
+.line3 {
+    margin-bottom: 24px;
+}
+.sell-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.sell-card {
+    width: 132px;
+    height: 172px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #222222;
+
+}
+.sell-photo {
+    width: 132px;
+    height: 132px;
+    padding: 17px 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.sell-photo:hover {
+    border: 1px solid #008ECC;
+    transform: scale(1.1);
+}
+.elektronics-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.apple-container {
+    width: 389px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-right: 44px;
+    padding-left: 20px;
+    background-color: #313131;
+    border-radius: 16px;
+    background-image: url(../images/bacground.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    
+}
+.title {
+    width: 99px;
+    background-color: #494949;
+    padding: 9px 20px;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+
+
+
+
+}
+
+.apple-logo {
+    width: 62px;
+    padding: 12.4px 7.75px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.apple-title {
+    font-family: 'Grotesk';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.apple-img {
+    width: 104px;
+    height: 185px;
+}
+
+.relame-container {
+    background-color: #FFF3CC;
+    background-image: url(../images/bacround1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.realme-name {
+    background-color: #F6DE8D;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.realme-desc {
+    margin-top: 20px;
+    font-family: 'Grotesk';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #222222;
+}
+
+.xaomi {
+    background-color: #FFECDF;
+    background-image: url(../images/bacground2.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.xaomi-title {
+    margin-top: 20px;
+}
+
+.xaomi-name {
+    background-color: #FFD1B0;
+    color: #222222;
+}
+
+.xaomi-desc {
+    margin-top: 15px;
+    font-family: 'Grotesk';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #222222;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-left: 543px;
+    margin-bottom: 120px;
+
+}
+
+.fruits-container {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.fruit-img {
+    width: 187px;
+    height: 187px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+    padding: 33px 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+   
+}
+
+.fruit-img:hover {
+    border: 1px solid#008ECC;
+   
+}
+
+.fruits-card {
+    width: 187px;
+    text-align: center;
+
+}
+
+.fruit-desc {
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #666666;
+    margin-bottom: 4px;
+
+}
+
+
+.fruit-title {
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #222222;
+
+}
+
+.fruit-img2 {
+    padding: 12px 21px;
+}
+
+.fruit-img3 {
+    padding: 17px 5px;
+}
+
+.fruit-img4 {
+    padding: 43px 10px;
+}
+
+.fruit-img5 {
+    padding: 26px 9px;
+}
+
+.fruit-img6 {
+    padding: 27px 20px;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-color: #008ECC;
+    width: 100%;
+    background-image: url(../images/bacgroud.footer.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+
+.line5 {
+    border: 1px solid#05ABF3;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.desc-footer {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    height: 352px;
+
+}
+
+.megamart-container {
+    margin-right: 90px;
+    margin-top: 80px;
+}
+
+.footer-desc1 {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.whats-app {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 20px;
+}
+
+.whats-app p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.call-us {
+    display: flex;
+    gap: 11px;
+}
+
+.call-us p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.download {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+.app-store {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 84px;
+}
+
+.categories {
+    width: 219px;
+    height: 352px;
+}
+
+.categories p {
+    color: #FFFFFF;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.categories-line {
+    width: 219px;
+    border: 3px solid#FFFFFF;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    color: #FFFFFF;
+}
+
+.list-item li {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.servises {
+    margin-left: 80px;
+}
+
+.custom-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.custom-line {
+    width: 167px;
+    border: 3px solid#FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.servis-item {
+    color: #FFFFFF;
+    margin-bottom: 83px;
+}
+
+.servis-item li {
+    margin-top: 20px;
+    margin-left: 30px;
+
 }
